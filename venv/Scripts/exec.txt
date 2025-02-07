@@ -1,0 +1,6 @@
+pyinstaller --onefile --noconsole --add-data "client_secret_888683576335-ea5h2tct2s2eclkjnqt3spe06ro2afba.apps.googleusercontent.com.json;." --add-data "clientes.txt;." vbapp.py
+
+
+pyinstaller --onefile --noconsole --add-data "client_secret_888683576335-ea5h2tct2s2eclkjnqt3spe06ro2afba.apps.googleusercontent.com.json;." --add-data "clientes.txt;." --hidden-import "babel.numbers" --icon="C:\Users\Gabriel\PycharmProjects\scriptvbapp\venv\Scripts\VBapp\ZIP.ico" vbapp.py
+
+pyinstaller --onefile --noconsole --add-data "client_secret.json;." --add-data "clientes.txt;." --icon="caminho_para_icone.ico" meu_script.py
